@@ -22,8 +22,8 @@ public class DataBaseConnect {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			String myDB = "jdbc:oracle:thin:@localhost:1521:xe";
-			String usuario = "borjaaday";
-			String password = "Andrea3611";
+			String usuario = "BorjaAday";
+			String password = "r2woR7cVEj47rcew";
 			Connection cnx = DriverManager.getConnection(myDB, usuario, password);
 			return cnx;
 		} catch (SQLException | ClassNotFoundException e) {
